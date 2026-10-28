@@ -4,10 +4,6 @@ A small Go/PostgreSQL REST service for receiving signed Stripe snapshot webhooks
 recording card captures and refunds in an append-only double-entry journal, and
 finding differences between provider records and the local ledger.
 
-Start with **[the Codex guide](docs/CODEX_GUIDE.md)** if your goal is to recreate
-and understand this project using Codex. It includes a build specification,
-copy-paste prompts, checkpoints, and interview questions.
-
 ## Run the synthetic demo
 
 Requires Docker with Compose and Python 3. Run these commands in this directory,
