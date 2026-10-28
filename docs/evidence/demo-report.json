@@ -1,0 +1,12 @@
+{
+  "source": "synthetic local workload",
+  "seed": 42,
+  "lifecycles": 30,
+  "deliveries": 240,
+  "unique_events": 120,
+  "duplicate_receipts": 120,
+  "intentionally_omitted_refunds": 0,
+  "expected_net_minor_units": 22500,
+  "actual_net_minor_units": 22500,
+  "passed": true
+}

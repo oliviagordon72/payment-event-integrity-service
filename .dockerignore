@@ -1,0 +1,6 @@
+.git
+.env
+bin
+*.test
+coverage.out
+*-report.json

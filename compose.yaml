@@ -1,0 +1,65 @@
+services:
+  db:
+    image: postgres:16-bookworm
+    environment:
+      POSTGRES_USER: payments
+      POSTGRES_PASSWORD: local-development-only
+      POSTGRES_DB: payments
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U payments -d payments"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+  migrate:
+    build: .
+    command: ["migrate"]
+    environment:
+      DATABASE_URL: postgres://payments:local-development-only@db:5432/payments?sslmode=disable
+    depends_on:
+      db:
+        condition: service_healthy
+  app:
+    build: .
+    ports:
+      - "127.0.0.1:8080:8080"
+    environment:
+      DATABASE_URL: postgres://payments:local-development-only@db:5432/payments?sslmode=disable
+      STRIPE_WEBHOOK_SECRET: ${STRIPE_WEBHOOK_SECRET:?Set STRIPE_WEBHOOK_SECRET in .env}
+      ADMIN_TOKEN: ${ADMIN_TOKEN:?Set ADMIN_TOKEN in .env}
+      STRIPE_API_VERSION: ${STRIPE_API_VERSION:-2026-09-30.endive}
+      WORKERS: "4"
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+  reconcile:
+    build: .
+    command: ["reconcile"]
+    profiles: ["tools"]
+    environment:
+      DATABASE_URL: postgres://payments:local-development-only@db:5432/payments?sslmode=disable
+      STRIPE_SECRET_KEY: ${STRIPE_SECRET_KEY:-}
+      STRIPE_API_VERSION: ${STRIPE_API_VERSION:-2026-09-30.endive}
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+  test:
+    image: golang:1.24-bookworm
+    profiles: ["tools"]
+    working_dir: /src
+    volumes:
+      - .:/src
+      - gomod:/go/pkg/mod
+    environment:
+      TEST_DATABASE_URL: postgres://payments:local-development-only@db:5432/payments?sslmode=disable
+      REQUIRE_DB_TESTS: "1"
+    command: ["go", "test", "-race", "-count=1", "./..."]
+    depends_on:
+      db:
+        condition: service_healthy
+volumes:
+  pgdata:
+  gomod:

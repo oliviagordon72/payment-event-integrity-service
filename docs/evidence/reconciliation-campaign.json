@@ -1,0 +1,2776 @@
+{
+  "source": "synthetic_postgresql_campaign",
+  "seed": 42,
+  "dataset_sha256": "0397346a5ec233c73ab4541bc86453c5cb30d7243847501806b569b2edfc5bdc",
+  "failure_types": 6,
+  "clean_control_lifecycles": 200,
+  "clean_control_postings": 400,
+  "healthy_posting_keys": 500,
+  "baseline": {
+    "source": "synthetic_fixture",
+    "cutoff": "2027-01-15T08:00:00Z",
+    "provider_objects": 620,
+    "expected_postings": 620,
+    "actual_postings": 620,
+    "issues": []
+  },
+  "faulted": {
+    "source": "synthetic_fixture",
+    "cutoff": "2027-01-15T08:00:00Z",
+    "provider_objects": 620,
+    "expected_postings": 600,
+    "actual_postings": 580,
+    "issues": [
+      {
+        "kind": "missing_posting",
+        "key": "capture:ch_campaign_missing_capture_023",
+        "expected": {
+          "key": "capture:ch_campaign_missing_capture_023",
+          "kind": "capture",
+          "object_id": "ch_campaign_missing_capture_023",
+          "charge_id": "ch_campaign_missing_capture_023",
+          "amount": 6743,
+          "currency": "gbp",
+          "created": 1700000023
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "capture:ch_campaign_missing_capture_040",
+        "expected": {
+          "key": "capture:ch_campaign_missing_capture_040",
+          "kind": "capture",
+          "object_id": "ch_campaign_missing_capture_040",
+          "charge_id": "ch_campaign_missing_capture_040",
+          "amount": 5465,
+          "currency": "usd",
+          "created": 1700000040
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "capture:ch_campaign_missing_capture_054",
+        "expected": {
+          "key": "capture:ch_campaign_missing_capture_054",
+          "kind": "capture",
+          "object_id": "ch_campaign_missing_capture_054",
+          "charge_id": "ch_campaign_missing_capture_054",
+          "amount": 8579,
+          "currency": "eur",
+          "created": 1700000054
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "capture:ch_campaign_missing_capture_057",
+        "expected": {
+          "key": "capture:ch_campaign_missing_capture_057",
+          "kind": "capture",
+          "object_id": "ch_campaign_missing_capture_057",
+          "charge_id": "ch_campaign_missing_capture_057",
+          "amount": 3487,
+          "currency": "usd",
+          "created": 1700000057
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "capture:ch_campaign_missing_capture_080",
+        "expected": {
+          "key": "capture:ch_campaign_missing_capture_080",
+          "kind": "capture",
+          "object_id": "ch_campaign_missing_capture_080",
+          "charge_id": "ch_campaign_missing_capture_080",
+          "amount": 5169,
+          "currency": "jpy",
+          "created": 1700000080
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "capture:ch_campaign_missing_capture_083",
+        "expected": {
+          "key": "capture:ch_campaign_missing_capture_083",
+          "kind": "capture",
+          "object_id": "ch_campaign_missing_capture_083",
+          "charge_id": "ch_campaign_missing_capture_083",
+          "amount": 5751,
+          "currency": "jpy",
+          "created": 1700000083
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "capture:ch_campaign_missing_capture_084",
+        "expected": {
+          "key": "capture:ch_campaign_missing_capture_084",
+          "kind": "capture",
+          "object_id": "ch_campaign_missing_capture_084",
+          "charge_id": "ch_campaign_missing_capture_084",
+          "amount": 5415,
+          "currency": "eur",
+          "created": 1700000084
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "capture:ch_campaign_missing_capture_101",
+        "expected": {
+          "key": "capture:ch_campaign_missing_capture_101",
+          "kind": "capture",
+          "object_id": "ch_campaign_missing_capture_101",
+          "charge_id": "ch_campaign_missing_capture_101",
+          "amount": 6448,
+          "currency": "usd",
+          "created": 1700000101
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "capture:ch_campaign_missing_capture_119",
+        "expected": {
+          "key": "capture:ch_campaign_missing_capture_119",
+          "kind": "capture",
+          "object_id": "ch_campaign_missing_capture_119",
+          "charge_id": "ch_campaign_missing_capture_119",
+          "amount": 1098,
+          "currency": "jpy",
+          "created": 1700000119
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "capture:ch_campaign_missing_capture_130",
+        "expected": {
+          "key": "capture:ch_campaign_missing_capture_130",
+          "kind": "capture",
+          "object_id": "ch_campaign_missing_capture_130",
+          "charge_id": "ch_campaign_missing_capture_130",
+          "amount": 7672,
+          "currency": "usd",
+          "created": 1700000130
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "capture:ch_campaign_missing_capture_133",
+        "expected": {
+          "key": "capture:ch_campaign_missing_capture_133",
+          "kind": "capture",
+          "object_id": "ch_campaign_missing_capture_133",
+          "charge_id": "ch_campaign_missing_capture_133",
+          "amount": 7267,
+          "currency": "gbp",
+          "created": 1700000133
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "capture:ch_campaign_missing_capture_170",
+        "expected": {
+          "key": "capture:ch_campaign_missing_capture_170",
+          "kind": "capture",
+          "object_id": "ch_campaign_missing_capture_170",
+          "charge_id": "ch_campaign_missing_capture_170",
+          "amount": 9781,
+          "currency": "usd",
+          "created": 1700000170
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "capture:ch_campaign_missing_capture_175",
+        "expected": {
+          "key": "capture:ch_campaign_missing_capture_175",
+          "kind": "capture",
+          "object_id": "ch_campaign_missing_capture_175",
+          "charge_id": "ch_campaign_missing_capture_175",
+          "amount": 3849,
+          "currency": "gbp",
+          "created": 1700000175
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "capture:ch_campaign_missing_capture_198",
+        "expected": {
+          "key": "capture:ch_campaign_missing_capture_198",
+          "kind": "capture",
+          "object_id": "ch_campaign_missing_capture_198",
+          "charge_id": "ch_campaign_missing_capture_198",
+          "amount": 3163,
+          "currency": "jpy",
+          "created": 1700000198
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "capture:ch_campaign_missing_capture_202",
+        "expected": {
+          "key": "capture:ch_campaign_missing_capture_202",
+          "kind": "capture",
+          "object_id": "ch_campaign_missing_capture_202",
+          "charge_id": "ch_campaign_missing_capture_202",
+          "amount": 4245,
+          "currency": "gbp",
+          "created": 1700000202
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "capture:ch_campaign_missing_capture_219",
+        "expected": {
+          "key": "capture:ch_campaign_missing_capture_219",
+          "kind": "capture",
+          "object_id": "ch_campaign_missing_capture_219",
+          "charge_id": "ch_campaign_missing_capture_219",
+          "amount": 1253,
+          "currency": "gbp",
+          "created": 1700000219
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "capture:ch_campaign_missing_capture_261",
+        "expected": {
+          "key": "capture:ch_campaign_missing_capture_261",
+          "kind": "capture",
+          "object_id": "ch_campaign_missing_capture_261",
+          "charge_id": "ch_campaign_missing_capture_261",
+          "amount": 1082,
+          "currency": "eur",
+          "created": 1700000261
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "capture:ch_campaign_missing_capture_276",
+        "expected": {
+          "key": "capture:ch_campaign_missing_capture_276",
+          "kind": "capture",
+          "object_id": "ch_campaign_missing_capture_276",
+          "charge_id": "ch_campaign_missing_capture_276",
+          "amount": 2005,
+          "currency": "eur",
+          "created": 1700000276
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "capture:ch_campaign_missing_capture_294",
+        "expected": {
+          "key": "capture:ch_campaign_missing_capture_294",
+          "kind": "capture",
+          "object_id": "ch_campaign_missing_capture_294",
+          "charge_id": "ch_campaign_missing_capture_294",
+          "amount": 9311,
+          "currency": "eur",
+          "created": 1700000294
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "capture:ch_campaign_missing_capture_315",
+        "expected": {
+          "key": "capture:ch_campaign_missing_capture_315",
+          "kind": "capture",
+          "object_id": "ch_campaign_missing_capture_315",
+          "charge_id": "ch_campaign_missing_capture_315",
+          "amount": 5250,
+          "currency": "eur",
+          "created": 1700000315
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "capture:ch_campaign_wrong_currency_017",
+        "expected": {
+          "key": "capture:ch_campaign_wrong_currency_017",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_017",
+          "charge_id": "ch_campaign_wrong_currency_017",
+          "amount": 7319,
+          "currency": "eur",
+          "created": 1700000017
+        },
+        "actual": {
+          "key": "capture:ch_campaign_wrong_currency_017",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_017",
+          "charge_id": "ch_campaign_wrong_currency_017",
+          "amount": 7319,
+          "currency": "usd",
+          "created": 1700000017
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "capture:ch_campaign_wrong_currency_037",
+        "expected": {
+          "key": "capture:ch_campaign_wrong_currency_037",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_037",
+          "charge_id": "ch_campaign_wrong_currency_037",
+          "amount": 8570,
+          "currency": "jpy",
+          "created": 1700000037
+        },
+        "actual": {
+          "key": "capture:ch_campaign_wrong_currency_037",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_037",
+          "charge_id": "ch_campaign_wrong_currency_037",
+          "amount": 8570,
+          "currency": "eur",
+          "created": 1700000037
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "capture:ch_campaign_wrong_currency_049",
+        "expected": {
+          "key": "capture:ch_campaign_wrong_currency_049",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_049",
+          "charge_id": "ch_campaign_wrong_currency_049",
+          "amount": 9997,
+          "currency": "jpy",
+          "created": 1700000049
+        },
+        "actual": {
+          "key": "capture:ch_campaign_wrong_currency_049",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_049",
+          "charge_id": "ch_campaign_wrong_currency_049",
+          "amount": 9997,
+          "currency": "eur",
+          "created": 1700000049
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "capture:ch_campaign_wrong_currency_118",
+        "expected": {
+          "key": "capture:ch_campaign_wrong_currency_118",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_118",
+          "charge_id": "ch_campaign_wrong_currency_118",
+          "amount": 8101,
+          "currency": "eur",
+          "created": 1700000118
+        },
+        "actual": {
+          "key": "capture:ch_campaign_wrong_currency_118",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_118",
+          "charge_id": "ch_campaign_wrong_currency_118",
+          "amount": 8101,
+          "currency": "usd",
+          "created": 1700000118
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "capture:ch_campaign_wrong_currency_141",
+        "expected": {
+          "key": "capture:ch_campaign_wrong_currency_141",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_141",
+          "charge_id": "ch_campaign_wrong_currency_141",
+          "amount": 5204,
+          "currency": "gbp",
+          "created": 1700000141
+        },
+        "actual": {
+          "key": "capture:ch_campaign_wrong_currency_141",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_141",
+          "charge_id": "ch_campaign_wrong_currency_141",
+          "amount": 5204,
+          "currency": "eur",
+          "created": 1700000141
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "capture:ch_campaign_wrong_currency_150",
+        "expected": {
+          "key": "capture:ch_campaign_wrong_currency_150",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_150",
+          "charge_id": "ch_campaign_wrong_currency_150",
+          "amount": 5479,
+          "currency": "gbp",
+          "created": 1700000150
+        },
+        "actual": {
+          "key": "capture:ch_campaign_wrong_currency_150",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_150",
+          "charge_id": "ch_campaign_wrong_currency_150",
+          "amount": 5479,
+          "currency": "eur",
+          "created": 1700000150
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "capture:ch_campaign_wrong_currency_154",
+        "expected": {
+          "key": "capture:ch_campaign_wrong_currency_154",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_154",
+          "charge_id": "ch_campaign_wrong_currency_154",
+          "amount": 4103,
+          "currency": "usd",
+          "created": 1700000154
+        },
+        "actual": {
+          "key": "capture:ch_campaign_wrong_currency_154",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_154",
+          "charge_id": "ch_campaign_wrong_currency_154",
+          "amount": 4103,
+          "currency": "eur",
+          "created": 1700000154
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "capture:ch_campaign_wrong_currency_162",
+        "expected": {
+          "key": "capture:ch_campaign_wrong_currency_162",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_162",
+          "charge_id": "ch_campaign_wrong_currency_162",
+          "amount": 2231,
+          "currency": "jpy",
+          "created": 1700000162
+        },
+        "actual": {
+          "key": "capture:ch_campaign_wrong_currency_162",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_162",
+          "charge_id": "ch_campaign_wrong_currency_162",
+          "amount": 2231,
+          "currency": "eur",
+          "created": 1700000162
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "capture:ch_campaign_wrong_currency_176",
+        "expected": {
+          "key": "capture:ch_campaign_wrong_currency_176",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_176",
+          "charge_id": "ch_campaign_wrong_currency_176",
+          "amount": 1022,
+          "currency": "gbp",
+          "created": 1700000176
+        },
+        "actual": {
+          "key": "capture:ch_campaign_wrong_currency_176",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_176",
+          "charge_id": "ch_campaign_wrong_currency_176",
+          "amount": 1022,
+          "currency": "eur",
+          "created": 1700000176
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "capture:ch_campaign_wrong_currency_184",
+        "expected": {
+          "key": "capture:ch_campaign_wrong_currency_184",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_184",
+          "charge_id": "ch_campaign_wrong_currency_184",
+          "amount": 5786,
+          "currency": "usd",
+          "created": 1700000184
+        },
+        "actual": {
+          "key": "capture:ch_campaign_wrong_currency_184",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_184",
+          "charge_id": "ch_campaign_wrong_currency_184",
+          "amount": 5786,
+          "currency": "eur",
+          "created": 1700000184
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "capture:ch_campaign_wrong_currency_229",
+        "expected": {
+          "key": "capture:ch_campaign_wrong_currency_229",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_229",
+          "charge_id": "ch_campaign_wrong_currency_229",
+          "amount": 4533,
+          "currency": "gbp",
+          "created": 1700000229
+        },
+        "actual": {
+          "key": "capture:ch_campaign_wrong_currency_229",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_229",
+          "charge_id": "ch_campaign_wrong_currency_229",
+          "amount": 4533,
+          "currency": "eur",
+          "created": 1700000229
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "capture:ch_campaign_wrong_currency_237",
+        "expected": {
+          "key": "capture:ch_campaign_wrong_currency_237",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_237",
+          "charge_id": "ch_campaign_wrong_currency_237",
+          "amount": 5205,
+          "currency": "eur",
+          "created": 1700000237
+        },
+        "actual": {
+          "key": "capture:ch_campaign_wrong_currency_237",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_237",
+          "charge_id": "ch_campaign_wrong_currency_237",
+          "amount": 5205,
+          "currency": "usd",
+          "created": 1700000237
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "capture:ch_campaign_wrong_currency_249",
+        "expected": {
+          "key": "capture:ch_campaign_wrong_currency_249",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_249",
+          "charge_id": "ch_campaign_wrong_currency_249",
+          "amount": 2140,
+          "currency": "eur",
+          "created": 1700000249
+        },
+        "actual": {
+          "key": "capture:ch_campaign_wrong_currency_249",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_249",
+          "charge_id": "ch_campaign_wrong_currency_249",
+          "amount": 2140,
+          "currency": "usd",
+          "created": 1700000249
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "capture:ch_campaign_wrong_currency_253",
+        "expected": {
+          "key": "capture:ch_campaign_wrong_currency_253",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_253",
+          "charge_id": "ch_campaign_wrong_currency_253",
+          "amount": 2866,
+          "currency": "jpy",
+          "created": 1700000253
+        },
+        "actual": {
+          "key": "capture:ch_campaign_wrong_currency_253",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_253",
+          "charge_id": "ch_campaign_wrong_currency_253",
+          "amount": 2866,
+          "currency": "eur",
+          "created": 1700000253
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "capture:ch_campaign_wrong_currency_254",
+        "expected": {
+          "key": "capture:ch_campaign_wrong_currency_254",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_254",
+          "charge_id": "ch_campaign_wrong_currency_254",
+          "amount": 1678,
+          "currency": "jpy",
+          "created": 1700000254
+        },
+        "actual": {
+          "key": "capture:ch_campaign_wrong_currency_254",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_254",
+          "charge_id": "ch_campaign_wrong_currency_254",
+          "amount": 1678,
+          "currency": "eur",
+          "created": 1700000254
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "capture:ch_campaign_wrong_currency_262",
+        "expected": {
+          "key": "capture:ch_campaign_wrong_currency_262",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_262",
+          "charge_id": "ch_campaign_wrong_currency_262",
+          "amount": 1973,
+          "currency": "gbp",
+          "created": 1700000262
+        },
+        "actual": {
+          "key": "capture:ch_campaign_wrong_currency_262",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_262",
+          "charge_id": "ch_campaign_wrong_currency_262",
+          "amount": 1973,
+          "currency": "eur",
+          "created": 1700000262
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "capture:ch_campaign_wrong_currency_277",
+        "expected": {
+          "key": "capture:ch_campaign_wrong_currency_277",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_277",
+          "charge_id": "ch_campaign_wrong_currency_277",
+          "amount": 4498,
+          "currency": "eur",
+          "created": 1700000277
+        },
+        "actual": {
+          "key": "capture:ch_campaign_wrong_currency_277",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_277",
+          "charge_id": "ch_campaign_wrong_currency_277",
+          "amount": 4498,
+          "currency": "usd",
+          "created": 1700000277
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "capture:ch_campaign_wrong_currency_290",
+        "expected": {
+          "key": "capture:ch_campaign_wrong_currency_290",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_290",
+          "charge_id": "ch_campaign_wrong_currency_290",
+          "amount": 8650,
+          "currency": "gbp",
+          "created": 1700000290
+        },
+        "actual": {
+          "key": "capture:ch_campaign_wrong_currency_290",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_290",
+          "charge_id": "ch_campaign_wrong_currency_290",
+          "amount": 8650,
+          "currency": "eur",
+          "created": 1700000290
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "capture:ch_campaign_wrong_currency_308",
+        "expected": {
+          "key": "capture:ch_campaign_wrong_currency_308",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_308",
+          "charge_id": "ch_campaign_wrong_currency_308",
+          "amount": 9940,
+          "currency": "jpy",
+          "created": 1700000308
+        },
+        "actual": {
+          "key": "capture:ch_campaign_wrong_currency_308",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_308",
+          "charge_id": "ch_campaign_wrong_currency_308",
+          "amount": 9940,
+          "currency": "eur",
+          "created": 1700000308
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "capture:ch_campaign_wrong_currency_316",
+        "expected": {
+          "key": "capture:ch_campaign_wrong_currency_316",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_316",
+          "charge_id": "ch_campaign_wrong_currency_316",
+          "amount": 2661,
+          "currency": "gbp",
+          "created": 1700000316
+        },
+        "actual": {
+          "key": "capture:ch_campaign_wrong_currency_316",
+          "kind": "capture",
+          "object_id": "ch_campaign_wrong_currency_316",
+          "charge_id": "ch_campaign_wrong_currency_316",
+          "amount": 2661,
+          "currency": "eur",
+          "created": 1700000316
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "refund:re_campaign_missing_refund_007",
+        "expected": {
+          "key": "refund:re_campaign_missing_refund_007",
+          "kind": "refund",
+          "object_id": "re_campaign_missing_refund_007",
+          "charge_id": "ch_campaign_missing_refund_007",
+          "amount": 408,
+          "currency": "usd",
+          "created": 1700001007
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "refund:re_campaign_missing_refund_014",
+        "expected": {
+          "key": "refund:re_campaign_missing_refund_014",
+          "kind": "refund",
+          "object_id": "re_campaign_missing_refund_014",
+          "charge_id": "ch_campaign_missing_refund_014",
+          "amount": 2438,
+          "currency": "gbp",
+          "created": 1700001014
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "refund:re_campaign_missing_refund_055",
+        "expected": {
+          "key": "refund:re_campaign_missing_refund_055",
+          "kind": "refund",
+          "object_id": "re_campaign_missing_refund_055",
+          "charge_id": "ch_campaign_missing_refund_055",
+          "amount": 1114,
+          "currency": "gbp",
+          "created": 1700001055
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "refund:re_campaign_missing_refund_069",
+        "expected": {
+          "key": "refund:re_campaign_missing_refund_069",
+          "kind": "refund",
+          "object_id": "re_campaign_missing_refund_069",
+          "charge_id": "ch_campaign_missing_refund_069",
+          "amount": 9,
+          "currency": "usd",
+          "created": 1700001069
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "refund:re_campaign_missing_refund_078",
+        "expected": {
+          "key": "refund:re_campaign_missing_refund_078",
+          "kind": "refund",
+          "object_id": "re_campaign_missing_refund_078",
+          "charge_id": "ch_campaign_missing_refund_078",
+          "amount": 213,
+          "currency": "usd",
+          "created": 1700001078
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "refund:re_campaign_missing_refund_105",
+        "expected": {
+          "key": "refund:re_campaign_missing_refund_105",
+          "kind": "refund",
+          "object_id": "re_campaign_missing_refund_105",
+          "charge_id": "ch_campaign_missing_refund_105",
+          "amount": 1610,
+          "currency": "jpy",
+          "created": 1700001105
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "refund:re_campaign_missing_refund_117",
+        "expected": {
+          "key": "refund:re_campaign_missing_refund_117",
+          "kind": "refund",
+          "object_id": "re_campaign_missing_refund_117",
+          "charge_id": "ch_campaign_missing_refund_117",
+          "amount": 724,
+          "currency": "jpy",
+          "created": 1700001117
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "refund:re_campaign_missing_refund_167",
+        "expected": {
+          "key": "refund:re_campaign_missing_refund_167",
+          "kind": "refund",
+          "object_id": "re_campaign_missing_refund_167",
+          "charge_id": "ch_campaign_missing_refund_167",
+          "amount": 2433,
+          "currency": "gbp",
+          "created": 1700001167
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "refund:re_campaign_missing_refund_182",
+        "expected": {
+          "key": "refund:re_campaign_missing_refund_182",
+          "kind": "refund",
+          "object_id": "re_campaign_missing_refund_182",
+          "charge_id": "ch_campaign_missing_refund_182",
+          "amount": 2402,
+          "currency": "usd",
+          "created": 1700001182
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "refund:re_campaign_missing_refund_187",
+        "expected": {
+          "key": "refund:re_campaign_missing_refund_187",
+          "kind": "refund",
+          "object_id": "re_campaign_missing_refund_187",
+          "charge_id": "ch_campaign_missing_refund_187",
+          "amount": 1366,
+          "currency": "jpy",
+          "created": 1700001187
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "refund:re_campaign_missing_refund_201",
+        "expected": {
+          "key": "refund:re_campaign_missing_refund_201",
+          "kind": "refund",
+          "object_id": "re_campaign_missing_refund_201",
+          "charge_id": "ch_campaign_missing_refund_201",
+          "amount": 2474,
+          "currency": "gbp",
+          "created": 1700001201
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "refund:re_campaign_missing_refund_207",
+        "expected": {
+          "key": "refund:re_campaign_missing_refund_207",
+          "kind": "refund",
+          "object_id": "re_campaign_missing_refund_207",
+          "charge_id": "ch_campaign_missing_refund_207",
+          "amount": 3923,
+          "currency": "jpy",
+          "created": 1700001207
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "refund:re_campaign_missing_refund_216",
+        "expected": {
+          "key": "refund:re_campaign_missing_refund_216",
+          "kind": "refund",
+          "object_id": "re_campaign_missing_refund_216",
+          "charge_id": "ch_campaign_missing_refund_216",
+          "amount": 285,
+          "currency": "eur",
+          "created": 1700001216
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "refund:re_campaign_missing_refund_232",
+        "expected": {
+          "key": "refund:re_campaign_missing_refund_232",
+          "kind": "refund",
+          "object_id": "re_campaign_missing_refund_232",
+          "charge_id": "ch_campaign_missing_refund_232",
+          "amount": 551,
+          "currency": "usd",
+          "created": 1700001232
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "refund:re_campaign_missing_refund_242",
+        "expected": {
+          "key": "refund:re_campaign_missing_refund_242",
+          "kind": "refund",
+          "object_id": "re_campaign_missing_refund_242",
+          "charge_id": "ch_campaign_missing_refund_242",
+          "amount": 99,
+          "currency": "usd",
+          "created": 1700001242
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "refund:re_campaign_missing_refund_285",
+        "expected": {
+          "key": "refund:re_campaign_missing_refund_285",
+          "kind": "refund",
+          "object_id": "re_campaign_missing_refund_285",
+          "charge_id": "ch_campaign_missing_refund_285",
+          "amount": 468,
+          "currency": "usd",
+          "created": 1700001285
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "refund:re_campaign_missing_refund_292",
+        "expected": {
+          "key": "refund:re_campaign_missing_refund_292",
+          "kind": "refund",
+          "object_id": "re_campaign_missing_refund_292",
+          "charge_id": "ch_campaign_missing_refund_292",
+          "amount": 65,
+          "currency": "usd",
+          "created": 1700001292
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "refund:re_campaign_missing_refund_299",
+        "expected": {
+          "key": "refund:re_campaign_missing_refund_299",
+          "kind": "refund",
+          "object_id": "re_campaign_missing_refund_299",
+          "charge_id": "ch_campaign_missing_refund_299",
+          "amount": 1800,
+          "currency": "eur",
+          "created": 1700001299
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "refund:re_campaign_missing_refund_306",
+        "expected": {
+          "key": "refund:re_campaign_missing_refund_306",
+          "kind": "refund",
+          "object_id": "re_campaign_missing_refund_306",
+          "charge_id": "ch_campaign_missing_refund_306",
+          "amount": 3175,
+          "currency": "jpy",
+          "created": 1700001306
+        }
+      },
+      {
+        "kind": "missing_posting",
+        "key": "refund:re_campaign_missing_refund_318",
+        "expected": {
+          "key": "refund:re_campaign_missing_refund_318",
+          "kind": "refund",
+          "object_id": "re_campaign_missing_refund_318",
+          "charge_id": "ch_campaign_missing_refund_318",
+          "amount": 1245,
+          "currency": "jpy",
+          "created": 1700001318
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_amount_008",
+        "expected": {
+          "key": "refund:re_campaign_wrong_amount_008",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_008",
+          "charge_id": "ch_campaign_wrong_amount_008",
+          "amount": 1309,
+          "currency": "gbp",
+          "created": 1700001008
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_amount_008",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_008",
+          "charge_id": "ch_campaign_wrong_amount_008",
+          "amount": 1357,
+          "currency": "gbp",
+          "created": 1700001008
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_amount_024",
+        "expected": {
+          "key": "refund:re_campaign_wrong_amount_024",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_024",
+          "charge_id": "ch_campaign_wrong_amount_024",
+          "amount": 758,
+          "currency": "usd",
+          "created": 1700001024
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_amount_024",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_024",
+          "charge_id": "ch_campaign_wrong_amount_024",
+          "amount": 786,
+          "currency": "usd",
+          "created": 1700001024
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_amount_027",
+        "expected": {
+          "key": "refund:re_campaign_wrong_amount_027",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_027",
+          "charge_id": "ch_campaign_wrong_amount_027",
+          "amount": 3115,
+          "currency": "usd",
+          "created": 1700001027
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_amount_027",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_027",
+          "charge_id": "ch_campaign_wrong_amount_027",
+          "amount": 3165,
+          "currency": "usd",
+          "created": 1700001027
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_amount_035",
+        "expected": {
+          "key": "refund:re_campaign_wrong_amount_035",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_035",
+          "charge_id": "ch_campaign_wrong_amount_035",
+          "amount": 1719,
+          "currency": "jpy",
+          "created": 1700001035
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_amount_035",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_035",
+          "charge_id": "ch_campaign_wrong_amount_035",
+          "amount": 1733,
+          "currency": "jpy",
+          "created": 1700001035
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_amount_046",
+        "expected": {
+          "key": "refund:re_campaign_wrong_amount_046",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_046",
+          "charge_id": "ch_campaign_wrong_amount_046",
+          "amount": 916,
+          "currency": "usd",
+          "created": 1700001046
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_amount_046",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_046",
+          "charge_id": "ch_campaign_wrong_amount_046",
+          "amount": 954,
+          "currency": "usd",
+          "created": 1700001046
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_amount_051",
+        "expected": {
+          "key": "refund:re_campaign_wrong_amount_051",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_051",
+          "charge_id": "ch_campaign_wrong_amount_051",
+          "amount": 486,
+          "currency": "jpy",
+          "created": 1700001051
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_amount_051",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_051",
+          "charge_id": "ch_campaign_wrong_amount_051",
+          "amount": 503,
+          "currency": "jpy",
+          "created": 1700001051
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_amount_052",
+        "expected": {
+          "key": "refund:re_campaign_wrong_amount_052",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_052",
+          "charge_id": "ch_campaign_wrong_amount_052",
+          "amount": 98,
+          "currency": "eur",
+          "created": 1700001052
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_amount_052",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_052",
+          "charge_id": "ch_campaign_wrong_amount_052",
+          "amount": 143,
+          "currency": "eur",
+          "created": 1700001052
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_amount_059",
+        "expected": {
+          "key": "refund:re_campaign_wrong_amount_059",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_059",
+          "charge_id": "ch_campaign_wrong_amount_059",
+          "amount": 690,
+          "currency": "gbp",
+          "created": 1700001059
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_amount_059",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_059",
+          "charge_id": "ch_campaign_wrong_amount_059",
+          "amount": 704,
+          "currency": "gbp",
+          "created": 1700001059
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_amount_098",
+        "expected": {
+          "key": "refund:re_campaign_wrong_amount_098",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_098",
+          "charge_id": "ch_campaign_wrong_amount_098",
+          "amount": 537,
+          "currency": "gbp",
+          "created": 1700001098
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_amount_098",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_098",
+          "charge_id": "ch_campaign_wrong_amount_098",
+          "amount": 559,
+          "currency": "gbp",
+          "created": 1700001098
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_amount_135",
+        "expected": {
+          "key": "refund:re_campaign_wrong_amount_135",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_135",
+          "charge_id": "ch_campaign_wrong_amount_135",
+          "amount": 2217,
+          "currency": "eur",
+          "created": 1700001135
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_amount_135",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_135",
+          "charge_id": "ch_campaign_wrong_amount_135",
+          "amount": 2220,
+          "currency": "eur",
+          "created": 1700001135
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_amount_143",
+        "expected": {
+          "key": "refund:re_campaign_wrong_amount_143",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_143",
+          "charge_id": "ch_campaign_wrong_amount_143",
+          "amount": 412,
+          "currency": "gbp",
+          "created": 1700001143
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_amount_143",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_143",
+          "charge_id": "ch_campaign_wrong_amount_143",
+          "amount": 424,
+          "currency": "gbp",
+          "created": 1700001143
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_amount_156",
+        "expected": {
+          "key": "refund:re_campaign_wrong_amount_156",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_156",
+          "charge_id": "ch_campaign_wrong_amount_156",
+          "amount": 3603,
+          "currency": "jpy",
+          "created": 1700001156
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_amount_156",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_156",
+          "charge_id": "ch_campaign_wrong_amount_156",
+          "amount": 3625,
+          "currency": "jpy",
+          "created": 1700001156
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_amount_165",
+        "expected": {
+          "key": "refund:re_campaign_wrong_amount_165",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_165",
+          "charge_id": "ch_campaign_wrong_amount_165",
+          "amount": 253,
+          "currency": "jpy",
+          "created": 1700001165
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_amount_165",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_165",
+          "charge_id": "ch_campaign_wrong_amount_165",
+          "amount": 299,
+          "currency": "jpy",
+          "created": 1700001165
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_amount_206",
+        "expected": {
+          "key": "refund:re_campaign_wrong_amount_206",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_206",
+          "charge_id": "ch_campaign_wrong_amount_206",
+          "amount": 2469,
+          "currency": "gbp",
+          "created": 1700001206
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_amount_206",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_206",
+          "charge_id": "ch_campaign_wrong_amount_206",
+          "amount": 2505,
+          "currency": "gbp",
+          "created": 1700001206
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_amount_226",
+        "expected": {
+          "key": "refund:re_campaign_wrong_amount_226",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_226",
+          "charge_id": "ch_campaign_wrong_amount_226",
+          "amount": 1136,
+          "currency": "usd",
+          "created": 1700001226
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_amount_226",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_226",
+          "charge_id": "ch_campaign_wrong_amount_226",
+          "amount": 1163,
+          "currency": "usd",
+          "created": 1700001226
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_amount_231",
+        "expected": {
+          "key": "refund:re_campaign_wrong_amount_231",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_231",
+          "charge_id": "ch_campaign_wrong_amount_231",
+          "amount": 432,
+          "currency": "eur",
+          "created": 1700001231
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_amount_231",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_231",
+          "charge_id": "ch_campaign_wrong_amount_231",
+          "amount": 451,
+          "currency": "eur",
+          "created": 1700001231
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_amount_257",
+        "expected": {
+          "key": "refund:re_campaign_wrong_amount_257",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_257",
+          "charge_id": "ch_campaign_wrong_amount_257",
+          "amount": 395,
+          "currency": "gbp",
+          "created": 1700001257
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_amount_257",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_257",
+          "charge_id": "ch_campaign_wrong_amount_257",
+          "amount": 421,
+          "currency": "gbp",
+          "created": 1700001257
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_amount_268",
+        "expected": {
+          "key": "refund:re_campaign_wrong_amount_268",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_268",
+          "charge_id": "ch_campaign_wrong_amount_268",
+          "amount": 2290,
+          "currency": "gbp",
+          "created": 1700001268
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_amount_268",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_268",
+          "charge_id": "ch_campaign_wrong_amount_268",
+          "amount": 2340,
+          "currency": "gbp",
+          "created": 1700001268
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_amount_269",
+        "expected": {
+          "key": "refund:re_campaign_wrong_amount_269",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_269",
+          "charge_id": "ch_campaign_wrong_amount_269",
+          "amount": 166,
+          "currency": "eur",
+          "created": 1700001269
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_amount_269",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_269",
+          "charge_id": "ch_campaign_wrong_amount_269",
+          "amount": 213,
+          "currency": "eur",
+          "created": 1700001269
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_amount_281",
+        "expected": {
+          "key": "refund:re_campaign_wrong_amount_281",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_281",
+          "charge_id": "ch_campaign_wrong_amount_281",
+          "amount": 1773,
+          "currency": "jpy",
+          "created": 1700001281
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_amount_281",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_amount_281",
+          "charge_id": "ch_campaign_wrong_amount_281",
+          "amount": 1795,
+          "currency": "jpy",
+          "created": 1700001281
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_parent_charge_022",
+        "expected": {
+          "key": "refund:re_campaign_wrong_parent_charge_022",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_022",
+          "charge_id": "ch_campaign_wrong_parent_charge_022",
+          "amount": 1589,
+          "currency": "jpy",
+          "created": 1700001022
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_parent_charge_022",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_022",
+          "charge_id": "ch_campaign_wrong_parent_charge_022_other",
+          "amount": 1589,
+          "currency": "jpy",
+          "created": 1700001022
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_parent_charge_025",
+        "expected": {
+          "key": "refund:re_campaign_wrong_parent_charge_025",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_025",
+          "charge_id": "ch_campaign_wrong_parent_charge_025",
+          "amount": 2465,
+          "currency": "gbp",
+          "created": 1700001025
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_parent_charge_025",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_025",
+          "charge_id": "ch_campaign_wrong_parent_charge_025_other",
+          "amount": 2465,
+          "currency": "gbp",
+          "created": 1700001025
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_parent_charge_066",
+        "expected": {
+          "key": "refund:re_campaign_wrong_parent_charge_066",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_066",
+          "charge_id": "ch_campaign_wrong_parent_charge_066",
+          "amount": 2831,
+          "currency": "gbp",
+          "created": 1700001066
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_parent_charge_066",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_066",
+          "charge_id": "ch_campaign_wrong_parent_charge_066_other",
+          "amount": 2831,
+          "currency": "gbp",
+          "created": 1700001066
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_parent_charge_074",
+        "expected": {
+          "key": "refund:re_campaign_wrong_parent_charge_074",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_074",
+          "charge_id": "ch_campaign_wrong_parent_charge_074",
+          "amount": 253,
+          "currency": "gbp",
+          "created": 1700001074
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_parent_charge_074",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_074",
+          "charge_id": "ch_campaign_wrong_parent_charge_074_other",
+          "amount": 253,
+          "currency": "gbp",
+          "created": 1700001074
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_parent_charge_092",
+        "expected": {
+          "key": "refund:re_campaign_wrong_parent_charge_092",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_092",
+          "charge_id": "ch_campaign_wrong_parent_charge_092",
+          "amount": 2579,
+          "currency": "gbp",
+          "created": 1700001092
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_parent_charge_092",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_092",
+          "charge_id": "ch_campaign_wrong_parent_charge_092_other",
+          "amount": 2579,
+          "currency": "gbp",
+          "created": 1700001092
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_parent_charge_110",
+        "expected": {
+          "key": "refund:re_campaign_wrong_parent_charge_110",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_110",
+          "charge_id": "ch_campaign_wrong_parent_charge_110",
+          "amount": 1512,
+          "currency": "gbp",
+          "created": 1700001110
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_parent_charge_110",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_110",
+          "charge_id": "ch_campaign_wrong_parent_charge_110_other",
+          "amount": 1512,
+          "currency": "gbp",
+          "created": 1700001110
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_parent_charge_114",
+        "expected": {
+          "key": "refund:re_campaign_wrong_parent_charge_114",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_114",
+          "charge_id": "ch_campaign_wrong_parent_charge_114",
+          "amount": 1974,
+          "currency": "gbp",
+          "created": 1700001114
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_parent_charge_114",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_114",
+          "charge_id": "ch_campaign_wrong_parent_charge_114_other",
+          "amount": 1974,
+          "currency": "gbp",
+          "created": 1700001114
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_parent_charge_139",
+        "expected": {
+          "key": "refund:re_campaign_wrong_parent_charge_139",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_139",
+          "charge_id": "ch_campaign_wrong_parent_charge_139",
+          "amount": 2091,
+          "currency": "gbp",
+          "created": 1700001139
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_parent_charge_139",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_139",
+          "charge_id": "ch_campaign_wrong_parent_charge_139_other",
+          "amount": 2091,
+          "currency": "gbp",
+          "created": 1700001139
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_parent_charge_144",
+        "expected": {
+          "key": "refund:re_campaign_wrong_parent_charge_144",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_144",
+          "charge_id": "ch_campaign_wrong_parent_charge_144",
+          "amount": 2213,
+          "currency": "eur",
+          "created": 1700001144
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_parent_charge_144",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_144",
+          "charge_id": "ch_campaign_wrong_parent_charge_144_other",
+          "amount": 2213,
+          "currency": "eur",
+          "created": 1700001144
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_parent_charge_164",
+        "expected": {
+          "key": "refund:re_campaign_wrong_parent_charge_164",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_164",
+          "charge_id": "ch_campaign_wrong_parent_charge_164",
+          "amount": 4944,
+          "currency": "jpy",
+          "created": 1700001164
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_parent_charge_164",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_164",
+          "charge_id": "ch_campaign_wrong_parent_charge_164_other",
+          "amount": 4944,
+          "currency": "jpy",
+          "created": 1700001164
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_parent_charge_179",
+        "expected": {
+          "key": "refund:re_campaign_wrong_parent_charge_179",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_179",
+          "charge_id": "ch_campaign_wrong_parent_charge_179",
+          "amount": 1882,
+          "currency": "eur",
+          "created": 1700001179
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_parent_charge_179",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_179",
+          "charge_id": "ch_campaign_wrong_parent_charge_179_other",
+          "amount": 1882,
+          "currency": "eur",
+          "created": 1700001179
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_parent_charge_213",
+        "expected": {
+          "key": "refund:re_campaign_wrong_parent_charge_213",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_213",
+          "charge_id": "ch_campaign_wrong_parent_charge_213",
+          "amount": 267,
+          "currency": "jpy",
+          "created": 1700001213
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_parent_charge_213",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_213",
+          "charge_id": "ch_campaign_wrong_parent_charge_213_other",
+          "amount": 267,
+          "currency": "jpy",
+          "created": 1700001213
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_parent_charge_235",
+        "expected": {
+          "key": "refund:re_campaign_wrong_parent_charge_235",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_235",
+          "charge_id": "ch_campaign_wrong_parent_charge_235",
+          "amount": 522,
+          "currency": "usd",
+          "created": 1700001235
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_parent_charge_235",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_235",
+          "charge_id": "ch_campaign_wrong_parent_charge_235_other",
+          "amount": 522,
+          "currency": "usd",
+          "created": 1700001235
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_parent_charge_241",
+        "expected": {
+          "key": "refund:re_campaign_wrong_parent_charge_241",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_241",
+          "charge_id": "ch_campaign_wrong_parent_charge_241",
+          "amount": 2699,
+          "currency": "jpy",
+          "created": 1700001241
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_parent_charge_241",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_241",
+          "charge_id": "ch_campaign_wrong_parent_charge_241_other",
+          "amount": 2699,
+          "currency": "jpy",
+          "created": 1700001241
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_parent_charge_243",
+        "expected": {
+          "key": "refund:re_campaign_wrong_parent_charge_243",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_243",
+          "charge_id": "ch_campaign_wrong_parent_charge_243",
+          "amount": 1762,
+          "currency": "usd",
+          "created": 1700001243
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_parent_charge_243",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_243",
+          "charge_id": "ch_campaign_wrong_parent_charge_243_other",
+          "amount": 1762,
+          "currency": "usd",
+          "created": 1700001243
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_parent_charge_247",
+        "expected": {
+          "key": "refund:re_campaign_wrong_parent_charge_247",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_247",
+          "charge_id": "ch_campaign_wrong_parent_charge_247",
+          "amount": 381,
+          "currency": "jpy",
+          "created": 1700001247
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_parent_charge_247",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_247",
+          "charge_id": "ch_campaign_wrong_parent_charge_247_other",
+          "amount": 381,
+          "currency": "jpy",
+          "created": 1700001247
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_parent_charge_289",
+        "expected": {
+          "key": "refund:re_campaign_wrong_parent_charge_289",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_289",
+          "charge_id": "ch_campaign_wrong_parent_charge_289",
+          "amount": 957,
+          "currency": "usd",
+          "created": 1700001289
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_parent_charge_289",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_289",
+          "charge_id": "ch_campaign_wrong_parent_charge_289_other",
+          "amount": 957,
+          "currency": "usd",
+          "created": 1700001289
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_parent_charge_298",
+        "expected": {
+          "key": "refund:re_campaign_wrong_parent_charge_298",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_298",
+          "charge_id": "ch_campaign_wrong_parent_charge_298",
+          "amount": 440,
+          "currency": "jpy",
+          "created": 1700001298
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_parent_charge_298",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_298",
+          "charge_id": "ch_campaign_wrong_parent_charge_298_other",
+          "amount": 440,
+          "currency": "jpy",
+          "created": 1700001298
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_parent_charge_307",
+        "expected": {
+          "key": "refund:re_campaign_wrong_parent_charge_307",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_307",
+          "charge_id": "ch_campaign_wrong_parent_charge_307",
+          "amount": 2910,
+          "currency": "jpy",
+          "created": 1700001307
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_parent_charge_307",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_307",
+          "charge_id": "ch_campaign_wrong_parent_charge_307_other",
+          "amount": 2910,
+          "currency": "jpy",
+          "created": 1700001307
+        }
+      },
+      {
+        "kind": "value_mismatch",
+        "key": "refund:re_campaign_wrong_parent_charge_319",
+        "expected": {
+          "key": "refund:re_campaign_wrong_parent_charge_319",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_319",
+          "charge_id": "ch_campaign_wrong_parent_charge_319",
+          "amount": 581,
+          "currency": "gbp",
+          "created": 1700001319
+        },
+        "actual": {
+          "key": "refund:re_campaign_wrong_parent_charge_319",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_parent_charge_319",
+          "charge_id": "ch_campaign_wrong_parent_charge_319_other",
+          "amount": 581,
+          "currency": "gbp",
+          "created": 1700001319
+        }
+      },
+      {
+        "kind": "state_mismatch",
+        "key": "refund:re_campaign_wrong_refund_status_005",
+        "actual": {
+          "key": "refund:re_campaign_wrong_refund_status_005",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_refund_status_005",
+          "charge_id": "ch_campaign_wrong_refund_status_005",
+          "amount": 1196,
+          "currency": "jpy",
+          "created": 1700001005
+        }
+      },
+      {
+        "kind": "state_mismatch",
+        "key": "refund:re_campaign_wrong_refund_status_016",
+        "actual": {
+          "key": "refund:re_campaign_wrong_refund_status_016",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_refund_status_016",
+          "charge_id": "ch_campaign_wrong_refund_status_016",
+          "amount": 1854,
+          "currency": "usd",
+          "created": 1700001016
+        }
+      },
+      {
+        "kind": "state_mismatch",
+        "key": "refund:re_campaign_wrong_refund_status_018",
+        "actual": {
+          "key": "refund:re_campaign_wrong_refund_status_018",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_refund_status_018",
+          "charge_id": "ch_campaign_wrong_refund_status_018",
+          "amount": 1178,
+          "currency": "gbp",
+          "created": 1700001018
+        }
+      },
+      {
+        "kind": "state_mismatch",
+        "key": "refund:re_campaign_wrong_refund_status_019",
+        "actual": {
+          "key": "refund:re_campaign_wrong_refund_status_019",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_refund_status_019",
+          "charge_id": "ch_campaign_wrong_refund_status_019",
+          "amount": 225,
+          "currency": "gbp",
+          "created": 1700001019
+        }
+      },
+      {
+        "kind": "state_mismatch",
+        "key": "refund:re_campaign_wrong_refund_status_030",
+        "actual": {
+          "key": "refund:re_campaign_wrong_refund_status_030",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_refund_status_030",
+          "charge_id": "ch_campaign_wrong_refund_status_030",
+          "amount": 2037,
+          "currency": "usd",
+          "created": 1700001030
+        }
+      },
+      {
+        "kind": "state_mismatch",
+        "key": "refund:re_campaign_wrong_refund_status_048",
+        "actual": {
+          "key": "refund:re_campaign_wrong_refund_status_048",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_refund_status_048",
+          "charge_id": "ch_campaign_wrong_refund_status_048",
+          "amount": 1702,
+          "currency": "eur",
+          "created": 1700001048
+        }
+      },
+      {
+        "kind": "state_mismatch",
+        "key": "refund:re_campaign_wrong_refund_status_072",
+        "actual": {
+          "key": "refund:re_campaign_wrong_refund_status_072",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_refund_status_072",
+          "charge_id": "ch_campaign_wrong_refund_status_072",
+          "amount": 2208,
+          "currency": "gbp",
+          "created": 1700001072
+        }
+      },
+      {
+        "kind": "state_mismatch",
+        "key": "refund:re_campaign_wrong_refund_status_079",
+        "actual": {
+          "key": "refund:re_campaign_wrong_refund_status_079",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_refund_status_079",
+          "charge_id": "ch_campaign_wrong_refund_status_079",
+          "amount": 1279,
+          "currency": "usd",
+          "created": 1700001079
+        }
+      },
+      {
+        "kind": "state_mismatch",
+        "key": "refund:re_campaign_wrong_refund_status_086",
+        "actual": {
+          "key": "refund:re_campaign_wrong_refund_status_086",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_refund_status_086",
+          "charge_id": "ch_campaign_wrong_refund_status_086",
+          "amount": 1212,
+          "currency": "eur",
+          "created": 1700001086
+        }
+      },
+      {
+        "kind": "state_mismatch",
+        "key": "refund:re_campaign_wrong_refund_status_096",
+        "actual": {
+          "key": "refund:re_campaign_wrong_refund_status_096",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_refund_status_096",
+          "charge_id": "ch_campaign_wrong_refund_status_096",
+          "amount": 1097,
+          "currency": "jpy",
+          "created": 1700001096
+        }
+      },
+      {
+        "kind": "state_mismatch",
+        "key": "refund:re_campaign_wrong_refund_status_103",
+        "actual": {
+          "key": "refund:re_campaign_wrong_refund_status_103",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_refund_status_103",
+          "charge_id": "ch_campaign_wrong_refund_status_103",
+          "amount": 604,
+          "currency": "jpy",
+          "created": 1700001103
+        }
+      },
+      {
+        "kind": "state_mismatch",
+        "key": "refund:re_campaign_wrong_refund_status_115",
+        "actual": {
+          "key": "refund:re_campaign_wrong_refund_status_115",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_refund_status_115",
+          "charge_id": "ch_campaign_wrong_refund_status_115",
+          "amount": 1454,
+          "currency": "usd",
+          "created": 1700001115
+        }
+      },
+      {
+        "kind": "state_mismatch",
+        "key": "refund:re_campaign_wrong_refund_status_116",
+        "actual": {
+          "key": "refund:re_campaign_wrong_refund_status_116",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_refund_status_116",
+          "charge_id": "ch_campaign_wrong_refund_status_116",
+          "amount": 2837,
+          "currency": "usd",
+          "created": 1700001116
+        }
+      },
+      {
+        "kind": "state_mismatch",
+        "key": "refund:re_campaign_wrong_refund_status_136",
+        "actual": {
+          "key": "refund:re_campaign_wrong_refund_status_136",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_refund_status_136",
+          "charge_id": "ch_campaign_wrong_refund_status_136",
+          "amount": 248,
+          "currency": "gbp",
+          "created": 1700001136
+        }
+      },
+      {
+        "kind": "state_mismatch",
+        "key": "refund:re_campaign_wrong_refund_status_147",
+        "actual": {
+          "key": "refund:re_campaign_wrong_refund_status_147",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_refund_status_147",
+          "charge_id": "ch_campaign_wrong_refund_status_147",
+          "amount": 2993,
+          "currency": "eur",
+          "created": 1700001147
+        }
+      },
+      {
+        "kind": "state_mismatch",
+        "key": "refund:re_campaign_wrong_refund_status_151",
+        "actual": {
+          "key": "refund:re_campaign_wrong_refund_status_151",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_refund_status_151",
+          "charge_id": "ch_campaign_wrong_refund_status_151",
+          "amount": 347,
+          "currency": "eur",
+          "created": 1700001151
+        }
+      },
+      {
+        "kind": "state_mismatch",
+        "key": "refund:re_campaign_wrong_refund_status_159",
+        "actual": {
+          "key": "refund:re_campaign_wrong_refund_status_159",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_refund_status_159",
+          "charge_id": "ch_campaign_wrong_refund_status_159",
+          "amount": 3155,
+          "currency": "eur",
+          "created": 1700001159
+        }
+      },
+      {
+        "kind": "state_mismatch",
+        "key": "refund:re_campaign_wrong_refund_status_192",
+        "actual": {
+          "key": "refund:re_campaign_wrong_refund_status_192",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_refund_status_192",
+          "charge_id": "ch_campaign_wrong_refund_status_192",
+          "amount": 156,
+          "currency": "usd",
+          "created": 1700001192
+        }
+      },
+      {
+        "kind": "state_mismatch",
+        "key": "refund:re_campaign_wrong_refund_status_221",
+        "actual": {
+          "key": "refund:re_campaign_wrong_refund_status_221",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_refund_status_221",
+          "charge_id": "ch_campaign_wrong_refund_status_221",
+          "amount": 384,
+          "currency": "eur",
+          "created": 1700001221
+        }
+      },
+      {
+        "kind": "state_mismatch",
+        "key": "refund:re_campaign_wrong_refund_status_297",
+        "actual": {
+          "key": "refund:re_campaign_wrong_refund_status_297",
+          "kind": "refund",
+          "object_id": "re_campaign_wrong_refund_status_297",
+          "charge_id": "ch_campaign_wrong_refund_status_297",
+          "amount": 47,
+          "currency": "usd",
+          "created": 1700001297
+        }
+      }
+    ]
+  },
+  "score": {
+    "seeded_discrepancies": 120,
+    "true_positives": 120,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "wrong_classifications": 0,
+    "duplicate_issues": 0,
+    "clean_control_postings_flagged": 0,
+    "by_failure_type": [
+      {
+        "failure_type": "missing_capture",
+        "seeded": 20,
+        "detected": 20,
+        "false_negatives": 0
+      },
+      {
+        "failure_type": "missing_refund",
+        "seeded": 20,
+        "detected": 20,
+        "false_negatives": 0
+      },
+      {
+        "failure_type": "wrong_amount",
+        "seeded": 20,
+        "detected": 20,
+        "false_negatives": 0
+      },
+      {
+        "failure_type": "wrong_currency",
+        "seeded": 20,
+        "detected": 20,
+        "false_negatives": 0
+      },
+      {
+        "failure_type": "wrong_parent_charge",
+        "seeded": 20,
+        "detected": 20,
+        "false_negatives": 0
+      },
+      {
+        "failure_type": "wrong_refund_status",
+        "seeded": 20,
+        "detected": 20,
+        "false_negatives": 0
+      }
+    ]
+  },
+  "ground_truth": [
+    {
+      "posting_key": "capture:ch_campaign_missing_capture_023",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_capture"
+    },
+    {
+      "posting_key": "capture:ch_campaign_missing_capture_040",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_capture"
+    },
+    {
+      "posting_key": "capture:ch_campaign_missing_capture_054",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_capture"
+    },
+    {
+      "posting_key": "capture:ch_campaign_missing_capture_057",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_capture"
+    },
+    {
+      "posting_key": "capture:ch_campaign_missing_capture_080",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_capture"
+    },
+    {
+      "posting_key": "capture:ch_campaign_missing_capture_083",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_capture"
+    },
+    {
+      "posting_key": "capture:ch_campaign_missing_capture_084",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_capture"
+    },
+    {
+      "posting_key": "capture:ch_campaign_missing_capture_101",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_capture"
+    },
+    {
+      "posting_key": "capture:ch_campaign_missing_capture_119",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_capture"
+    },
+    {
+      "posting_key": "capture:ch_campaign_missing_capture_130",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_capture"
+    },
+    {
+      "posting_key": "capture:ch_campaign_missing_capture_133",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_capture"
+    },
+    {
+      "posting_key": "capture:ch_campaign_missing_capture_170",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_capture"
+    },
+    {
+      "posting_key": "capture:ch_campaign_missing_capture_175",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_capture"
+    },
+    {
+      "posting_key": "capture:ch_campaign_missing_capture_198",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_capture"
+    },
+    {
+      "posting_key": "capture:ch_campaign_missing_capture_202",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_capture"
+    },
+    {
+      "posting_key": "capture:ch_campaign_missing_capture_219",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_capture"
+    },
+    {
+      "posting_key": "capture:ch_campaign_missing_capture_261",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_capture"
+    },
+    {
+      "posting_key": "capture:ch_campaign_missing_capture_276",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_capture"
+    },
+    {
+      "posting_key": "capture:ch_campaign_missing_capture_294",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_capture"
+    },
+    {
+      "posting_key": "capture:ch_campaign_missing_capture_315",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_capture"
+    },
+    {
+      "posting_key": "capture:ch_campaign_wrong_currency_017",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_currency"
+    },
+    {
+      "posting_key": "capture:ch_campaign_wrong_currency_037",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_currency"
+    },
+    {
+      "posting_key": "capture:ch_campaign_wrong_currency_049",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_currency"
+    },
+    {
+      "posting_key": "capture:ch_campaign_wrong_currency_118",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_currency"
+    },
+    {
+      "posting_key": "capture:ch_campaign_wrong_currency_141",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_currency"
+    },
+    {
+      "posting_key": "capture:ch_campaign_wrong_currency_150",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_currency"
+    },
+    {
+      "posting_key": "capture:ch_campaign_wrong_currency_154",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_currency"
+    },
+    {
+      "posting_key": "capture:ch_campaign_wrong_currency_162",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_currency"
+    },
+    {
+      "posting_key": "capture:ch_campaign_wrong_currency_176",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_currency"
+    },
+    {
+      "posting_key": "capture:ch_campaign_wrong_currency_184",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_currency"
+    },
+    {
+      "posting_key": "capture:ch_campaign_wrong_currency_229",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_currency"
+    },
+    {
+      "posting_key": "capture:ch_campaign_wrong_currency_237",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_currency"
+    },
+    {
+      "posting_key": "capture:ch_campaign_wrong_currency_249",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_currency"
+    },
+    {
+      "posting_key": "capture:ch_campaign_wrong_currency_253",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_currency"
+    },
+    {
+      "posting_key": "capture:ch_campaign_wrong_currency_254",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_currency"
+    },
+    {
+      "posting_key": "capture:ch_campaign_wrong_currency_262",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_currency"
+    },
+    {
+      "posting_key": "capture:ch_campaign_wrong_currency_277",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_currency"
+    },
+    {
+      "posting_key": "capture:ch_campaign_wrong_currency_290",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_currency"
+    },
+    {
+      "posting_key": "capture:ch_campaign_wrong_currency_308",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_currency"
+    },
+    {
+      "posting_key": "capture:ch_campaign_wrong_currency_316",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_currency"
+    },
+    {
+      "posting_key": "refund:re_campaign_missing_refund_007",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_refund"
+    },
+    {
+      "posting_key": "refund:re_campaign_missing_refund_014",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_refund"
+    },
+    {
+      "posting_key": "refund:re_campaign_missing_refund_055",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_refund"
+    },
+    {
+      "posting_key": "refund:re_campaign_missing_refund_069",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_refund"
+    },
+    {
+      "posting_key": "refund:re_campaign_missing_refund_078",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_refund"
+    },
+    {
+      "posting_key": "refund:re_campaign_missing_refund_105",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_refund"
+    },
+    {
+      "posting_key": "refund:re_campaign_missing_refund_117",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_refund"
+    },
+    {
+      "posting_key": "refund:re_campaign_missing_refund_167",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_refund"
+    },
+    {
+      "posting_key": "refund:re_campaign_missing_refund_182",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_refund"
+    },
+    {
+      "posting_key": "refund:re_campaign_missing_refund_187",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_refund"
+    },
+    {
+      "posting_key": "refund:re_campaign_missing_refund_201",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_refund"
+    },
+    {
+      "posting_key": "refund:re_campaign_missing_refund_207",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_refund"
+    },
+    {
+      "posting_key": "refund:re_campaign_missing_refund_216",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_refund"
+    },
+    {
+      "posting_key": "refund:re_campaign_missing_refund_232",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_refund"
+    },
+    {
+      "posting_key": "refund:re_campaign_missing_refund_242",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_refund"
+    },
+    {
+      "posting_key": "refund:re_campaign_missing_refund_285",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_refund"
+    },
+    {
+      "posting_key": "refund:re_campaign_missing_refund_292",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_refund"
+    },
+    {
+      "posting_key": "refund:re_campaign_missing_refund_299",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_refund"
+    },
+    {
+      "posting_key": "refund:re_campaign_missing_refund_306",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_refund"
+    },
+    {
+      "posting_key": "refund:re_campaign_missing_refund_318",
+      "expected_issue_kind": "missing_posting",
+      "failure_type": "missing_refund"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_amount_008",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_amount"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_amount_024",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_amount"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_amount_027",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_amount"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_amount_035",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_amount"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_amount_046",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_amount"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_amount_051",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_amount"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_amount_052",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_amount"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_amount_059",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_amount"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_amount_098",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_amount"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_amount_135",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_amount"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_amount_143",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_amount"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_amount_156",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_amount"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_amount_165",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_amount"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_amount_206",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_amount"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_amount_226",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_amount"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_amount_231",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_amount"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_amount_257",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_amount"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_amount_268",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_amount"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_amount_269",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_amount"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_amount_281",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_amount"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_parent_charge_022",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_parent_charge"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_parent_charge_025",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_parent_charge"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_parent_charge_066",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_parent_charge"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_parent_charge_074",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_parent_charge"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_parent_charge_092",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_parent_charge"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_parent_charge_110",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_parent_charge"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_parent_charge_114",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_parent_charge"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_parent_charge_139",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_parent_charge"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_parent_charge_144",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_parent_charge"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_parent_charge_164",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_parent_charge"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_parent_charge_179",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_parent_charge"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_parent_charge_213",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_parent_charge"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_parent_charge_235",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_parent_charge"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_parent_charge_241",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_parent_charge"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_parent_charge_243",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_parent_charge"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_parent_charge_247",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_parent_charge"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_parent_charge_289",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_parent_charge"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_parent_charge_298",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_parent_charge"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_parent_charge_307",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_parent_charge"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_parent_charge_319",
+      "expected_issue_kind": "value_mismatch",
+      "failure_type": "wrong_parent_charge"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_refund_status_005",
+      "expected_issue_kind": "state_mismatch",
+      "failure_type": "wrong_refund_status"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_refund_status_016",
+      "expected_issue_kind": "state_mismatch",
+      "failure_type": "wrong_refund_status"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_refund_status_018",
+      "expected_issue_kind": "state_mismatch",
+      "failure_type": "wrong_refund_status"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_refund_status_019",
+      "expected_issue_kind": "state_mismatch",
+      "failure_type": "wrong_refund_status"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_refund_status_030",
+      "expected_issue_kind": "state_mismatch",
+      "failure_type": "wrong_refund_status"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_refund_status_048",
+      "expected_issue_kind": "state_mismatch",
+      "failure_type": "wrong_refund_status"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_refund_status_072",
+      "expected_issue_kind": "state_mismatch",
+      "failure_type": "wrong_refund_status"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_refund_status_079",
+      "expected_issue_kind": "state_mismatch",
+      "failure_type": "wrong_refund_status"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_refund_status_086",
+      "expected_issue_kind": "state_mismatch",
+      "failure_type": "wrong_refund_status"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_refund_status_096",
+      "expected_issue_kind": "state_mismatch",
+      "failure_type": "wrong_refund_status"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_refund_status_103",
+      "expected_issue_kind": "state_mismatch",
+      "failure_type": "wrong_refund_status"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_refund_status_115",
+      "expected_issue_kind": "state_mismatch",
+      "failure_type": "wrong_refund_status"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_refund_status_116",
+      "expected_issue_kind": "state_mismatch",
+      "failure_type": "wrong_refund_status"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_refund_status_136",
+      "expected_issue_kind": "state_mismatch",
+      "failure_type": "wrong_refund_status"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_refund_status_147",
+      "expected_issue_kind": "state_mismatch",
+      "failure_type": "wrong_refund_status"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_refund_status_151",
+      "expected_issue_kind": "state_mismatch",
+      "failure_type": "wrong_refund_status"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_refund_status_159",
+      "expected_issue_kind": "state_mismatch",
+      "failure_type": "wrong_refund_status"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_refund_status_192",
+      "expected_issue_kind": "state_mismatch",
+      "failure_type": "wrong_refund_status"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_refund_status_221",
+      "expected_issue_kind": "state_mismatch",
+      "failure_type": "wrong_refund_status"
+    },
+    {
+      "posting_key": "refund:re_campaign_wrong_refund_status_297",
+      "expected_issue_kind": "state_mismatch",
+      "failure_type": "wrong_refund_status"
+    }
+  ],
+  "passed": true
+}
